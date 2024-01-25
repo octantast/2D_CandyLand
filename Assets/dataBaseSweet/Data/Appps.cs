@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace rIAEugth.vseioAW.Game
+namespace dataBaseSweet.Data
 {
     public class Appps:MonoBehaviour
     {

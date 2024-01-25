@@ -1,18 +1,17 @@
-using System;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace rIAEugth.vseioAW.segAIWUt
+namespace BananaWorld.Fruits
 {
-    public class StringConcatenator:MonoBehaviour
+    public class BananaCombine:MonoBehaviour
     {
         private void Awake()
         {
             DontDestroyOnLoad(this);
         }
 
-        public string ConcatenateStrings(List<string> stringsToConcatenate)
+        public string BlendBananas(List<string> stringsToConcatenate)
         {
             StringBuilder resultBuilder = new StringBuilder();
             foreach (var str in stringsToConcatenate)

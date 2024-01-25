@@ -1,17 +1,17 @@
 using UnityEngine;
 
-namespace rIAEugth.vseioAW.Game
+namespace BananaWorld.Fruits
 {
-    public class Auer:Appps
+    public class BananaManager : MonoBehaviour
     {
-        public void Initialize()
+        public void SetupBanana()
         {
             UniWebView.SetAllowInlinePlay(true);
-            
-            var ewgseg = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
-            foreach (var dohse in ewgseg)
+
+            var audioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+            foreach (var audioSource in audioSources)
             {
-                dohse.Stop();
+                audioSource.Stop();
             }
 
             Screen.autorotateToPortrait = true;

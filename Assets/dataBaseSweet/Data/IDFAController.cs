@@ -1,9 +1,7 @@
-using System.Collections.Generic;
-using System.Text;
 using Unity.Advertisement.IosSupport;
 using UnityEngine;
 
-namespace rIAEugth.vseioAW.segAIWUt
+namespace dataBaseSweet.Data
 {
     public class IDFAController : MonoBehaviour
     {

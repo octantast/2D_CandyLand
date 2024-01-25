@@ -10,7 +10,7 @@ public class ButtonScript : MonoBehaviour
     private float startSize;
     private Color32 startColor;
 
-    public TMP_Text thisLevelNumberText;
+    public TextMeshProUGUI thisLevelNumberText;
     public LevelController levelController;
     public float thisLevelNumber;
 
@@ -23,16 +23,17 @@ public class ButtonScript : MonoBehaviour
         startColor = thisImage.color;
         thisLevelNumberText.text = thisLevelNumber.ToString("0");
     }
+
     private void Update()
     {
-        transform.localScale = Vector3.Lerp(transform.localScale, new Vector3(startSize, startSize, startSize), 10 * Time.deltaTime);
+        transform.localScale = Vector3.Lerp(transform.localScale, new Vector3(startSize, startSize, startSize),
+            10 * Time.deltaTime);
         thisImage.color = Color.Lerp(thisImage.color, startColor, 10 * Time.deltaTime);
     }
+
     public void OnEnter()
     {
         transform.localScale = new Vector3(startSize + 0.1f, startSize + 0.1f, startSize + 0.1f);
         thisImage.color = new Color32(255, 255, 255, 130);
     }
-
-   
 }

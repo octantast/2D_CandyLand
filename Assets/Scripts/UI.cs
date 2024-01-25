@@ -33,15 +33,15 @@ public class UI : MonoBehaviour
 
     // all ui
     public int levelmoneyBonus;
-    public TMP_Text levelcoins;
+    public TextMeshProUGUI levelcoins;
     public int coins;
     public int price1;
     public int price2;
     public int backgroundPrice;
-    public TMP_Text price1text;
-    public TMP_Text price2text;
-    public TMP_Text pricebacktext;
-    public List<TMP_Text> coinsText;
+    public TextMeshProUGUI price1text;
+    public TextMeshProUGUI price2text;
+    public TextMeshProUGUI pricebacktext;
+    public List<TextMeshProUGUI> coinsText;
     public int howManyStars;
     private int currentstars;
 
@@ -49,9 +49,9 @@ public class UI : MonoBehaviour
     public int bestScore;
     public int currentScore;
     public int targetScore;
-    public TMP_Text bestScoreText;
-    public TMP_Text currentScoreText;
-    public TMP_Text targetScoreText;
+    public TextMeshProUGUI bestScoreText;
+    public TextMeshPro currentScoreText;
+    public TextMeshPro targetScoreText;
 
     public bool bombsAllowed;
     public bool specialssAllowed;
@@ -65,7 +65,7 @@ public class UI : MonoBehaviour
    // public GameObject nextButton;
     public GameObject buy;
     public GameObject set;
-    public TMP_Text backgroundDescription;
+    public TextMeshProUGUI backgroundDescription;
 
     // skills
     public float a2timer;
@@ -402,7 +402,7 @@ public class UI : MonoBehaviour
         //}
        
 
-            foreach (TMP_Text text in coinsText)
+            foreach (TextMeshProUGUI text in coinsText)
         {
             text.text = coins.ToString("0");
         }

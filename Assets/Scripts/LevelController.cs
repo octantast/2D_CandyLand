@@ -39,13 +39,13 @@ public class LevelController : MonoBehaviour
     public GameObject volumeOff;
 
     // currency
-    public TMP_Text currencyCount;
+    public TextMeshProUGUI currencyCount;
     private int coins;
 
     public List<GameObject> backgrounds;
     public List<string> backgrounddescriptions;
     public int backgroundPrice;
-    public TMP_Text pricebacktext;
+    public TextMeshProUGUI pricebacktext;
 
     // background
     public int background2bought;
@@ -55,7 +55,7 @@ public class LevelController : MonoBehaviour
    // public GameObject nextButton;
     public GameObject buy;
     public GameObject set;
-    public TMP_Text backgroundDescription;
+    public TextMeshProUGUI backgroundDescription;
     public int howManyStars;
 
     private void Awake()
