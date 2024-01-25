@@ -283,7 +283,7 @@ public class CandyScript : MonoBehaviour
             if (parentobj == general.candyHolder && transform.childCount == 0) // 1 candy changes
             {
                 //collision.gameObject.tag = "Untagged";
-                   gameObject.tag = mergeTags[Random.Range(0, mergeTags.Count + 1)];
+                   gameObject.tag = mergeTags[Random.Range(0, mergeTags.Count)];
                 mergeTags.Remove(gameObject.tag);
                 if(gameObject.tag == "Green")
                 {
