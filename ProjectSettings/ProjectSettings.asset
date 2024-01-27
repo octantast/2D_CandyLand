@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 'Sweet Bonana: Tasty Candyland'
+  productName: 'Sweet Banana: Candyland'
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -273,7 +273,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: b63db7ec8aaa8344d95303060f3bfaf4, type: 3}
+      m_Icon: {fileID: 2800000, guid: 4408b45120267424bb40e526be300be1, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
